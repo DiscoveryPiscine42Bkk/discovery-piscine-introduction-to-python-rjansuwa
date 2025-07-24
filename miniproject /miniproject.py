@@ -13,6 +13,7 @@ def show_menu():
 
 def add_task():
     name = input("ชื่องาน: ")
+    date = input("(dd/mm/yyyy): ")
     category = input("ประเภท (พืช/สัตว์): ")
     tasks.append({"name": name, "category": category})
     print(f"✅ เพิ่มงาน '{name}' แล้ว")
